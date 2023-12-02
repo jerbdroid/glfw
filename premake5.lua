@@ -38,3 +38,7 @@ project "GLFW"
 	filter "configurations:Release"
 		runtime "Release"
 		optimize "on"
+
+	filter { "not action:vs*" }
+		-- Set the tools explicitly
+		toolset "clang"
