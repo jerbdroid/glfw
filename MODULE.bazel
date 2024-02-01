@@ -1,0 +1,4 @@
+module(
+    name = "glfw",
+    version = "3.3.9",
+)

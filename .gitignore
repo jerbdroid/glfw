@@ -104,3 +104,5 @@ tests/windows
 
 bin/
 bin-int/
+
+MODULE.bazel.lock
